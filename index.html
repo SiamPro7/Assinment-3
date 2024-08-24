@@ -86,7 +86,7 @@
             <!-- Left Section -->
             <div class="md:w-1/2 p-8 flex flex-col justify-center">
                 <div class="mb-4">
-                   
+                     <img class="pb-4" src="./B10-Assignment-03-main/assets/Vector.png" alt="">
                         <button class="bg-slate-300 p-4 px-5 rounded-full "> <i class="fa-solid fa-arrow-right"></i> About Us</button> 
                 </div>
                 <h2 class="text-3xl font-bold mb-4">We design thoughtful, liveable spaces</h2>
@@ -96,7 +96,7 @@
                 <div class="space-y-4">
                     <div class="flex items-start bg-gray-100 p-4 rounded-lg">
                         <div class="mr-4">
-                            <img src="./B10-Assignment-03-main/assets/commercial.png" alt="">
+                            <img class="object-cover" src="./B10-Assignment-03-main/assets/commercial.png" alt="">
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold">Commercial</h3>
@@ -176,13 +176,13 @@
       </div>
 
       <!-- Grid Section -->
-      <div class="grid grid-cols-2 sm:grid-cols-10 gap-6 max-w-6xl mx-auto">
+      <div class=" mx-12 grid grid-cols-1 sm:grid-cols-10 gap-6 max-w-6xl sm:mx-auto">
         <!-- Card 1 (Spans 2 columns) -->
-        <div class="col-span-1 sm:col-span-7 bg-white shadow-lg rounded-lg p-4 sm:flex gap-x-2">
+        <div class="  sm:col-span-7 bg-white shadow-lg rounded-lg p-4 flex flex-col lg:flex-row gap-x-2">
           <img
             src="./B10-Assignment-03-main/assets/img1.png"
             alt="Commercial Property"
-            class="h-40 w-full object-cover rounded-md mb-4"
+            class=" h-full  w-full object-cover rounded-md mb-4"
           />
           <div>
             <h3 class="text-xl font-semibold mb-2">Commercial</h3>
@@ -202,25 +202,25 @@
           <img
             src="./B10-Assignment-03-main/assets/img2.png"
             alt="Property"
-            class="h-40 w-full object-cover rounded-md mb-4"
+            class="h-full sm:h-40 w-full object-cover rounded-md mb-4"
           />
         </div>
 
         <!-- Card 3 (Single column) -->
-        <div class="col-span-2 bg-white shadow-lg rounded-lg p-4">
+        <div class="sm:col-span-2 bg-white shadow-lg rounded-lg p-4">
           <img
             src="./B10-Assignment-03-main/assets/img3.png"
             alt="Property"
-            class="h-40 w-full object-cover rounded-md mb-4"
+            class="h-full sm:h-40 w-full object-cover rounded-md mb-4"
           />
         </div>
 
         <!-- Card 4 (Spans 2 columns) -->
-        <div class="col-span-6 bg-white shadow-lg rounded-lg p-4 flex gap-x-3">
+        <div class="sm:col-span-6 bg-white shadow-lg rounded-lg p-4 flex flex-col lg:flex-row gap-x-3">
           <img
             src="./B10-Assignment-03-main/assets/img4.png"
             alt="Commercial Property"
-            class="h-40 w-full object-cover rounded-md mb-4"
+            class="h-full sm:h-40 w-full object-cover rounded-md mb-4"
           />
           <div>
             <h3 class="text-xl font-semibold mb-2">Commercial</h3>
@@ -235,11 +235,19 @@
         </div>
 
         <!-- Card 5 (Single column) -->
-        <div class="col-span-2 bg-white shadow-lg rounded-lg p-4">
+        <div class="sm:col-span-2 bg-white shadow-lg rounded-lg p-4">
           <img
             src="./B10-Assignment-03-main/assets/img5.png"
             alt="Property"
-            class="h-40 w-full object-cover rounded-md mb-4"
+            class="h-full sm:h-40 w-full object-cover rounded-md mb-4"
+          />
+        </div>
+        <!-- Card 6 (Single column) -->
+        <div class="sm:hidden  bg-white shadow-lg rounded-lg p-4">
+          <img
+            src="./B10-Assignment-03-main/assets/img3.png"
+            alt="Property"
+            class="h-full sm:h-40 w-full object-cover rounded-md mb-4"
           />
         </div>
       </div>
@@ -276,6 +284,50 @@
             </form>
         </div>
     
+    </section>
+    <!-------- Happy Clients Says Section----------->
+    <section class="py-6">
+        <div class="px-20 py-10 bg-gray-400 container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8">Happy <span class="text-red-500">Clients</span> says</h2>
+
+            <!-- Testimonials Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Testimonial 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img class="object-cover w-24 h-24 mx-auto rounded-full mb-4" src="./siam.jpg" alt="Client Image">
+                    <p class="text-gray-600 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <h4 class="text-lg font-bold">Regina Miles</h4>
+                    <p class="text-sm text-gray-500 mb-4">Banker</p>
+                    <div class="flex justify-center">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img class="object-cover w-24 h-24 mx-auto rounded-full mb-4" src="./siam.png" alt="Client Image">
+                    <p class="text-gray-600 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <h4 class="text-lg font-bold">Regina Miles</h4>
+                    <p class="text-sm text-gray-500 mb-4">Banker</p>
+                    <div class="flex justify-center">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img class="object-cover w-24 h-24 mx-auto rounded-full mb-4" src="./siam.jpg" alt="Client Image">
+                    <p class="text-gray-600 mb-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <h4 class="text-lg font-bold">Regina Miles</h4>
+                    <p class="text-sm text-gray-500 mb-4">Banker</p>
+                    <div class="flex justify-center">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
    </main>
 
